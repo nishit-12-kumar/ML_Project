@@ -14,7 +14,11 @@ app= application
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index1.html')
+
+@app.route('/about_model')
+def about_model():
+    return render_template('about_model.html')
 
 
 @app.route('/predictdata', methods= ['GET' , 'POST'])
