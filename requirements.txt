@@ -7,4 +7,5 @@ catboost
 xgboost
 dill
 flask
+xgboost==1.7.6
 # -e .
